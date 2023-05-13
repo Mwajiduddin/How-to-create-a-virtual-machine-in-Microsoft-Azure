@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/avbn.png" height="40%" width="60%" alt="Microsoft Azure Logo"/>
+<img src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/dfwg.png" height="40%" width="60%" alt="Microsoft Azure Logo"/>
 </p>
 
 <h1>Microsoft Azure</h1>
