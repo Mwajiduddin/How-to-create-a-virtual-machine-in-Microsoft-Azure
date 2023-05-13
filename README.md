@@ -6,10 +6,10 @@
 In this tutorial we will be creating and deploying a virtual machine within the Azure cloud environment. Microsoft Azure is a public cloud platform that offers a large collection of tools and computing services.
 
 
-<h2>Configuration Steps</h2>
+<h2>Guidelines</h2>
 
 
-<h3>Step 1: Create Azure Account</h3>
+<h3>Step 1: Create a resource group in Azure</h3>
 
 
 Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
