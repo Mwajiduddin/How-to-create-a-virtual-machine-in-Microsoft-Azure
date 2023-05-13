@@ -1,14 +1,10 @@
 <p align="center">
-<img src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/dfwg.png" height="40%" width="60%" alt="Microsoft Azure Logo"/>
+<img src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/dfwg.png" height="10%" width="25%" alt="Microsoft Azure Logo"/>
 </p>
 
-<h1>Microsoft Azure</h1>
-Microsoft Azure is a cloud platform that will let you rent space in order to store or process your own data. This guide will demonstrate how to create an Azure account and create a virtual machine.
+<h1>How to create a virtual machine (VM) in Microsoft Azure</h1>
+In this tutorial we will be creating and deploying a virtual machine within the Azure cloud environment. Microsoft Azure is a public cloud platform that offers a large collection of tools and computing services.
 
-<h2>Requirements</h2>
-
-- Computer with Internet Connection
-- Credit Card (Required for free Azure credits)
 
 <h2>Configuration Steps</h2>
 
