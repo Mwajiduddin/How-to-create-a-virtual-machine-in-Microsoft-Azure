@@ -18,13 +18,22 @@ Log into your Microsoft Azure account (sign up if you don't have one) and type i
 Type in what you want the name of your resource group to be, select a region, and then click on "Review + create." For this example, the name of my resource group is "VM-Lab1" and the region I selected to be in is "East US." 
 After that you will be prompted by a validation page, just click "Create" at the bottom.
 
-![rg create](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a3.png)
-![valid create](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a4.png)
+<p align="center">
+  <img width="901" height="889" src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a3.png">
+</p>
+
+<p align="center">
+  <img width="571" height="884" src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a4.png">
+</p>
 
 <h3>Step 2: Creating a virtual machine</h3>
 Type and click on "Virtual machines" in the top search box. Click on the blue rectangular box labelled "Create" and select the first option "Azure virtual machine."
 
-![create vm](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a5.png)
+<p align="center">
+  <img width="713" height="574" src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a5.png">
+</p>
+
+
 
 Right next to "Resource group" marked by the red asterick, select the name of the resource group that you previously made and then type in the name that you want your virtual machine to be. Select the same region that you chose for when making your resource group. So for this example, I named my virtual machine to be "VM1" and the region as "East US." Right next to "Image" select the operating system that you would like to run in your virtual machine. Then select the size that want your virtual machine to be, the higher the CPU, the better the VM's performance but the more costly it would be.
 
@@ -46,13 +55,20 @@ Type and click on "Virtual machines" in the top search bar and you will see the 
 
 Click on the Windows search bar, type and click on "Remote Desktop Connection." Next to "Computer" paste the VM's public IP address and click connect.
 
-![rdc](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a9.png)
+<p align="center">
+  <img width="405" height="248" src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a9.png">
+</p>
 
 You will be prompted by window asking for credentials (the same credentials that you made under "Adminstrator account" from the previous step) so click on "More choices" and then click on "Use a different account." Type in the username and password that you created and click on OK. Then you will be prompted by another window stating that "The identity of the remote computer cannot be verified. Do you want to connect anyway?" click Yes.
 
-![login](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a10.png)
+<p align="center">
+  <img width="444" height="465" src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a10.png">
+</p>
 
-![verif](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a11.png)
+<p align="center">
+  <img width="389" height="397" src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a11.png">
+</p>
+
 
 As the virtual machine is booting you will see a screen about privacy settings for your device, just select no for each option and hit "Accept." There you have it, your own virtual machine!
 
