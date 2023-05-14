@@ -9,127 +9,51 @@ In this tutorial we will be creating and deploying a virtual machine within the 
 <h2>Tutorial Guideline</h2>
 
 
-<h3>Step 1: Create a resource group in Azure</h3>
-Log into your Microsoft Azure account (sign up if you don't have one) and type in "Resource Groups" in the top search bar. Click on the blue rectangular box that says "Create resource group."
+<h3>Step 1: Creating a resource group</h3>
+Log into your Microsoft Azure account (sign up if you don't have one) and type in "Resource Groups" in the top search bar. Click on the blue rectangular box labelled "Create resource group."
 
 ![search bar](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a1.png)
 ![blue box](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a2.png)
 
-Type in what you want the name of your resource group to be, select a region, and then click on "Review + create." After that you will be prompted by a validation page, just click "Create" at the bottom.
+Type in what you want the name of your resource group to be, select a region, and then click on "Review + create." For this example, the name of my resource group is "VM-Lab1" and the region I selected to be in is "East US." 
+After that you will be prompted by a validation page, just click "Create" at the bottom.
 
 ![rg create](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a3.png)
 ![valid create](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a4.png)
 
+<h3>Step 2: Creating a virtual machine</h3>
+Type and click on "Virtual machines" in the top search box. Click on the blue rectangular box labelled "Create" and select the first option "Azure virtual machine."
+
+![create vm](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a5.png)
+
+Right next to "Resource group" marked by the red asterick, select the name of the resource group that you previously made and then type in the name that you want your virtual machine to be. Select the same region that you chose for when making your resource group. So for this example, I named my virtual machine to be "VM1" and the region as "East US." Right next to "Image" select the operating system that you would like to run in your virtual machine. Then select the size that want your virtual machine to be, the higher the CPU, the better the VM's performance but the more costly it would be.
+
+![vm selection](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a6.png)
+
+Under "Administrator account" you need to create a username and password in order to access the VM so make a note of it so that you won't forget. For the sake of easiness, I chose my username to be "VMuser1" and password as "WMpassword123." 
+
+Note: Do not follow this practice in the real world unless you want to be easily hacked.
+
+Under "Licensing" check box that states "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights." Then click "Review + create." 
+
+![rc](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a7.png)
 
 
+<h3>Step 3: Logging into your virtual machine</h3>
+Type and click on "Virtual machines" in the top search bar and you will see the virtual machine that you've made from the previous step. Click on it and you will see the configuration details of the virtual machine. The one that we're interested in is the VM's public IP address which will help us log into it. Copy the IP address by clicking on the "Copy to clipboard" icon.
 
-Create an Azure account [here](https://azure.microsoft.com/en-us/free/).
-- Select Start Free
-- Follow the prompt to create the account. 
-     - You will need to put in your credit card information but you will get $200 worth of Azure credit and will have 30 days to use those credits. You will not be charged until then.
-- Finish prompt, click Go to Azure Portal and you are ready to start with Azure!
-     - You may also go to [portal.azure.com](https://www.portal.azure.com) to start
+![ip](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a8.png)
 
+Click on the Windows search bar, type and click on "Remote Desktop Connection." Next to "Computer" paste the VM's public IP address and click connect.
 
-<p align="center">
-<img src="https://i.imgur.com/rk4SD27.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/f1eRIx4.png" height="70%" width="70%" alt="Azure Free Services"/>
-</p>
+![rdc](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a9.png)
 
+You will be prompted by window asking for credentials (the same credentials that you made under "Adminstrator account" from the previous step) so click on "More choices" and then click on "Use a different account." Type in the username and password that you created and click on OK. Then you will be prompted by another window stating that "The identity of the remote computer cannot be verified. Do you want to connect anyway?" click Yes.
 
-<h3>Step 2: Create Resource Group</h3>
+![login](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a10.png)
 
-- Go to search bar at the top and search "resource group"
-- Select create resource group
-- You will then need to name the resource group and select the region 
-- Select review + create
-    - For the example, we will be using RG-Lab-1 for the name and (US) West 3 for the region
+![verif](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a11.png)
 
-<p align="center">
-<img src="https://i.imgur.com/Afnk87u.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/yBBln5a.png" height="70%" width="70%" alt="Azure Free Services"/>
-</p>
+As the virtual machine is booting you will see a screen about privacy settings for your device, just select no for each option and hit "Accept." There you have it, your own virtual machine!
 
-<h3>Step 3: Create a storage Account</h3>
-
-- Go to search bar and search "storage account"
-- Select Create storage account
-- You will need to select the resource group, the region, and create a name for the storage group
-    - For the example we will name the storage group rglab1
-    - Use same resource group and region as step 2
-- Select review, then create.
-
-<p align="center">
-<img src="https://i.imgur.com/zhb3GHZ.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/7ryNBQg.png" height="70%" width="70%" alt="Azure Free Services"/>
-</p>
-
-
-<h3>Step 4: Create Virtual Machine</h3>
-     
-- Go to search bar and search "virtual machine"
-- Select create, then select Azure virtual machine
-- You will need to select the resource group, the region, and create a name for the virtual machine
-    - For the example we will name the virtual machine virtualmachine
-    - Use same resource group and region as step 2/3
-
-<p align="center">
-<img src="https://i.imgur.com/y0RafHM.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/PCJ3QAr.png" height="70%" width="70%" alt="Azure Free Services"/>
-</p>
- 
-
-
-
-* You will then need to select image and size
-    - For image we will use Windows 10 Pro
-    - For size, select see all sizes and select Standard D2as_v4
-* You will then need to make a username and password
-    - For username, we will use labuser
-    - Create your own password
-* Click the box under licensing and finally click Review + Create 
-
-
-<p align="center">
-<img src="https://i.imgur.com/p9UJXND.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/GHBDae0.png" height="70%" width="70%" alt="Azure Free Services"/>
-</p>
- 
-     
-
-<h3>Step 5: Connect to Virtual Machine</h3>
-
-- First you will need to find the Public IP address of your virtual machine
-   - Select the virtual machhine we created in step and the IP address will be on the right hand side 
-   - Copy the IP address
-
-<p align="center">
-<img src="https://i.imgur.com/T4Oc2RX.png" height="80%" width="80%" alt="Azure Free Account"/>
-
-* Mac Users 
-   - Download Microsoft Remote Desktop
-   - Open application and click add PC
-   - Paste IP address and select Add
-   - Double click on the virtual machine and enter username and password from step 4
-   - Select continue
-   
-* Windows Users
-     - Open and use Remote Desktop
-     - Paste IP Address and select Connect
-     - Enter username and password from step 4
-     - Select OK
-  
-     
-     
- <p align="center">
-<img src="https://i.imgur.com/14pPOdv.png" height="70%" width="70%" alt="Azure Free Account"/> <img src="https://i.imgur.com/Og3LKyd.png" height="70%" width="70%" alt="Azure Free Services"/>
-</p>
-
-
-
-
-
-🎉Congratulations! You have created your first virtual machine within Azure!🎉
-
-<p align="center">
-<img src="https://i.imgur.com/rEBpL8Y.png" height="80%" width="80%" alt="Azure Free Account"/>
-
-<h3>Tip</h3>
-
--  If you want to save your free $200 credits, make sure you delete ALL resource groups after finishing!    
-  
+![sc](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a12.png)
