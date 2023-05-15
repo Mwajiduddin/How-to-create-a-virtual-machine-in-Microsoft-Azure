@@ -10,6 +10,7 @@ In this tutorial we will be creating and deploying a virtual machine within the 
 
 
 <h3>Step 1: Creating a resource group</h3>
+
 Log into your Microsoft Azure account (sign up if you don't have one) and type in "Resource Groups" in the top search bar. Click on the blue rectangular box labelled "Create resource group."
 
 ![search bar](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a1.png)
