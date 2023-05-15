@@ -1,3 +1,5 @@
+<h1 align="center">How to create a virtual machine in Microsoft Azure</h1>
+
 <p align="center">
 <img src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/dfwg.png" height="10%" width="25%" alt="Microsoft Azure Logo"/>
 </p>
