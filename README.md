@@ -50,6 +50,7 @@ Under "Licensing" check box that states "I confirm I have an eligible Windows 10
 
 
 <h3>Step 3: Logging into your virtual machine</h3>
+
 Type and click on "Virtual machines" in the top search bar and you will see the virtual machine that you've made from the previous step. Click on it and you will see the configuration details of the virtual machine. The one that we're interested in is the VM's public IP address which will help us log into it. Copy the IP address by clicking on the "Copy to clipboard" icon.
 
 ![ip](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a8.png)
