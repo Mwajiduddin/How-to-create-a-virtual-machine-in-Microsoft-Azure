@@ -8,7 +8,7 @@
 In this tutorial we will be creating and deploying a virtual machine within the Azure cloud environment. Microsoft Azure is a public cloud platform that offers a large collection of tools and computing services.
 
 
-<h2>Tutorial Guideline</h2>
+<h2>Tutorial Guidelines</h2>
 
 
 <h3>Step 1: Creating a resource group</h3>
