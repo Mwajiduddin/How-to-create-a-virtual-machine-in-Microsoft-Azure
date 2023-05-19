@@ -39,7 +39,7 @@ Type and click on "Virtual machines" in the top search box. Click on the blue re
 
 
 
-Right next to "Resource group" marked by the red asterick, select the name of the resource group that you previously made and then type in the name that you want your virtual machine to be. Select the same region that you chose for when making your resource group. So for this example, I named my virtual machine to be "VM1" and the region as "East US." Right next to "Image" select the operating system that you would like to run in your virtual machine. Then select the size that want your virtual machine to be, the higher the CPU, the better the VM's performance but the more costly it would be.
+Right next to "Resource group" marked by the red asterick, select the name of the resource group that you previously made and then type in the name that you want your virtual machine to be. Select the same region that you chose for when making your resource group. So in this example, I named my virtual machine to be "VM1" and the region as "East US." Right next to "Image" select the operating system that you would like to run in your virtual machine. Then select the size that you want your virtual machine to be, the higher the CPU, the better the VM's performance but the more costly it would be.
 
 ![vm selection](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a6.png)
 
