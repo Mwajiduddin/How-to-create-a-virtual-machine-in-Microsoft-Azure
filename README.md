@@ -30,6 +30,7 @@ After that you will be prompted by a validation page, just click "Create" at the
 </p>
 
 <h3>Step 2: Creating a virtual machine</h3>
+
 Type and click on "Virtual machines" in the top search box. Click on the blue rectangular box labelled "Create" and select the first option "Azure virtual machine."
 
 <p align="center">
