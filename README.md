@@ -58,13 +58,13 @@ Type and click on "Virtual machines" in the top search bar and you will see the 
 
 ![ip](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a8.png)
 
-Click on the Windows search bar, type and click on "Remote Desktop Connection." Next to "Computer" paste the VM's public IP address and click connect.
+Go to your Windows search bar, type and select "Remote Desktop Connection." Next to "Computer" paste the VM's public IP address and click connect.
 
 <p align="center">
   <img width="405" height="248" src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a9.png">
 </p>
 
-You will be prompted by window asking for credentials (the same credentials that you made under "Adminstrator account" from the previous step) so click on "More choices" and then click on "Use a different account." Type in the username and password that you created and click on OK. Then you will be prompted by another window stating that "The identity of the remote computer cannot be verified. Do you want to connect anyway?" click Yes.
+You will be prompted by a window asking for credentials (the same credentials that you made under "Adminstrator account" from the previous step) so click on "More choices" and then click on "Use a different account." Type in the username and password that you created and click on OK. Then you will be prompted by another window stating that "The identity of the remote computer cannot be verified. Do you want to connect anyway?" click Yes.
 
 <p align="center">
   <img width="444" height="465" src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a10.png">
@@ -79,7 +79,7 @@ As the virtual machine is booting you will see a screen about privacy settings f
 
 ![sc](https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/a12.png)
 
-Lastly, once you're done creating and playing around with your virtual machine you need to delete the resource group(s) in Azure so that it won't charge you extra if you are not using it. So go into Azure, type in "Resource groups", click on the Resource group(s) shown, select "Delete resource group", copy the resource group's name and paste it below and then hit "Delete." Do this for each resource group and you're done!
+Lastly, once you're done creating and playing around in your virtual machine you need to delete the resource group(s) in Azure so that it won't charge you money if you are not using it. To delete your VM, go into Azure, type in "Resource groups", click on the Resource group(s) shown, select "Delete resource group", copy the resource group's name and paste it below and then hit "Delete." Do this for each resource group and you're done!
 
 <p align="center">
 <img src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/b29.png" />
