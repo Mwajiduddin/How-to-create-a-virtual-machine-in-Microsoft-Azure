@@ -45,7 +45,7 @@ Right next to "Resource group" marked by the red asterick, select the name of th
 
 Under "Administrator account" you need to create a username and password in order to access the VM so make a note of it so that you won't forget. For the sake of easiness, I chose my username to be "VMuser1" and password as "WMpassword123." 
 
-  >**Note**: *Do not follow this practice in the real world unless you want to be easily hacked.*
+  >**Note**: *Do not follow this practice in the real world unless you want to easily be hacked.*
 
 Under "Licensing" check box that states "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights." Then click "Review + create." 
 
