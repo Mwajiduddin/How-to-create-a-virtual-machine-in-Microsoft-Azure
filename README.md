@@ -4,7 +4,7 @@
 <img src="https://github.com/Mwajiduddin/Mwajiduddin/blob/main/images/dfwg.png" height="10%" width="25%"/>
 </p>
 
-<h1>Overview</h1>
+<h2>Overview</h2>
 In this tutorial we will be creating and deploying a virtual machine within the Azure cloud environment. Microsoft Azure is a public cloud platform that offers a large collection of tools and computing services.
 
 
